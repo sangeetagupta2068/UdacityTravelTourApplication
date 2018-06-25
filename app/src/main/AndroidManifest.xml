@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sangeetagupta1998.udacitytraveltour">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pune Tour"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="Places to Go"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RestaurentActivity"
+            android:label="Restaurents"
+            android:parentActivityName=".ListActivity" />
+        <activity
+            android:name=".HistoricalMonumentsActivity"
+            android:label="Historical Monuments"
+            android:parentActivityName=".ListActivity" />
+        <activity
+            android:name=".SightSeeingActivity"
+            android:label="Sight Seeing"
+            android:parentActivityName=".ListActivity" />
+        <activity
+            android:name=".MustToVisitActivity"
+            android:label="Must Visit Places"
+            android:parentActivityName=".ListActivity"></activity>
+    </application>
+
+</manifest>

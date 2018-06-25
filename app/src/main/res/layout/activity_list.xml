@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sangeetagupta1998.udacitytraveltour.ListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorTurqoise">
+
+            <ImageView
+                android:id="@+id/resView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:color="?android:colorControlHighlight"
+                android:contentDescription="@string/restaurent_description"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/round_restaurant_black_36dp" />
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/ListTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurent_description"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorTurqoise">
+
+
+            <ImageView
+                android:id="@+id/sightView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:color="?android:colorControlHighlight"
+                android:contentDescription="@string/sight_seeing_description"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/round_satellite_black_36dp" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/ListTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sight_seeing_description"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorTurqoise">
+
+            <ImageView
+                android:id="@+id/hisView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:color="?android:colorControlHighlight"
+                android:contentDescription="@string/historical_monument_description"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/round_account_balance_black_36dp" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/ListTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/historical_monument_description"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorTurqoise">
+
+            <ImageView
+                android:id="@+id/mustView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:color="?android:colorControlHighlight"
+                android:contentDescription="@string/must_visit_description"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baseline_favorite_black_36dp" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/ListTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="@string/must_visit_description"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

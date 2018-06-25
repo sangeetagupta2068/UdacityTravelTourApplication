@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sangeetagupta1998.udacitytraveltour.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/pune_city" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:text="@string/home_screen_title"
+                android:textAlignment="textStart"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorBlack"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/textView1"
+                android:layout_below="@id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/baseline_location_on_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:layout_marginTop="23dp"
+                android:layout_toRightOf="@id/imageView2"
+                android:text="@string/location"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/textView1"
+                android:layout_alignStart="@id/imageView2"
+                android:layout_below="@id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="85dp"
+                android:text="@string/home_screen_description"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp"
+                android:typeface="serif" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/textView2"
+                android:layout_below="@+id/textView2"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="37dp"
+                android:background="@color/colorTurqoise">
+
+                <TextView
+                    android:id="@+id/readMoreView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:color="?android:colorControlHighlight"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/home_screen_button"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

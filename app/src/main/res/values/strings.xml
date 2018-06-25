@@ -1,0 +1,182 @@
+<resources>
+
+
+    <string name="app_name">
+        UdacityTravelTour
+    </string>
+
+
+    <string name="home_screen_title">
+        Welcome To Pune!
+    </string>
+    <string name="home_screen_description">
+        Pune is known as the <b>Oxford of the East</b>.
+        It is one of the largest growing cities in India…
+    </string>
+    <string name="home_screen_button">
+        READ MORE>>
+    </string>
+    <string name="location">
+        Maharashtra,India
+    </string>
+
+    <string name="restaurent_description">
+        RESTAURENTS
+    </string>
+    <string name="sight_seeing_description">
+        SIGHT SEEING
+    </string>
+    <string name="historical_monument_description">
+        HISTORICAL MONUMENTS
+    </string>
+    <string name="must_visit_description">
+        MUST VISITS
+    </string>
+
+
+    <string name="pawna_lake_title">
+       PAWNA LAKE
+    </string>
+    <string name="mahabaleshwar_title">
+       MAHABALESHWAR
+    </string>
+    <string name="elphinstone_point_title">
+       ELPHINSTONE_POINT_TITLE
+    </string>
+    <string name="fireflies_camp_title">
+       FIREFLIES CAMP
+    </string>
+
+    <string name="pawna_lake_description">
+        Pawna Lake is an artificial reservoir formed by water of its namesake dam.
+        Situated towards the outskirts of Lonavala, this lake is a popular picnic and leisure spot.
+        It is 63.8 km from Pune.
+    </string>
+    <string name="mahabaleshwar_description">
+        Mahabaleshwar is the largest and one of the most beautiful hill stations in Maharashtra state.
+        It is situated at an altitude of 1372 m above seal level in Satara district.
+        It is 120.4 km from Pune.
+    </string>
+    <string name="elphinstone_point_description">
+        The place gets its name from the times of the British Raj, after the Governor of Bombay, Sir Mount Elphinstone.
+        It is believed to have been founded by Dr. Murray in 1930 and has an old mansion in its vicinity.
+        The mansion now lies in ruins and local authorities are planning to demolish to erect a picnic shed in its place for tourists.
+        The Elphinstone Point offers a panoramic view of the Pratapgad Fort, with the Koyna Valley to one side and the Savitri Valley to the other.
+        It is 125.2 km from Pune.
+    </string>
+    <string name="fireflies_camp_description">
+        The event lets the campers explore the forest area around the lovely Bhandardara to catch sights of fireflies in the wild.This
+        happens in Bhandararara in the last week of May.
+        Bhandararara is 172.4 km from Pune.
+    </string>
+
+
+    <string name="sinhagad_fort_title">
+       SINHAGAD FORT
+    </string>
+    <string name="lohagad_fort_title">
+       LOHAGAD_FORT
+    </string>
+    <string name="shanivar_wada_title">
+       SHANIVAR WADA
+    </string>
+    <string name="aga_khan_palace_title">
+       AGA KHAN PALACE
+    </string>
+
+
+    <string name="sinhagad_fort_description">
+        Sinhagad is a hill fortress located at around 25 km southwest of the city of Pune, India.
+        Previously known as Kondhana, the fort had been the site of many battles, most notably the Battle of Sinhagad in 1670.
+        Some of the information available at this fort suggests that the fort could have been built 2000 years ago.
+    </string>
+    <string name="lohagad_fort_description">
+        Lohagad (<i>Iron fort</i>) is one of the many hill forts of Maharashtra state in India.
+        Situated close to the hill station Lonavala and 52 km (32 mi) northwest of Pune, Lohagad rises to an elevation of 1,033 m (3,389 ft) above sea level.
+    </string>
+    <string name="shanivar_wada_description">
+        Shaniwarwada is a historical fortification in the city of Pune in Maharashtra, India.
+        Built in 1732, it was the seat of the Peshwas of the Maratha.
+        It is located in Shivajinagar.
+    </string>
+    <string name="aga_kha_palace_description">
+        The Aga Khan Palace was built by Sultan Muhammed Shah Aga Khan III in Pune, India.
+        Built in 1892, it is one of important landmarks in Indian history.
+        The palace is closely linked to the Indian freedom movement as it served as a prison for Mahatma Gandhi, his wife Kasturba Gandhi, his secretary Mahadev Desai and Sarojini Naidu.
+        It is located in Viman Nagar.
+    </string>
+
+
+    <string name="baashos_title">
+       BAASHOS
+    </string>
+    <string name="nawab_asia_title">
+       NAWAB ASIA
+    </string>
+    <string name="eighteen_degree_title">
+       EIGHTEEN DEGREE
+    </string>
+    <string name="gong_title">
+       GONG
+    </string>
+
+    <string name="eighteen_degree_description">
+        Eighteen degree is famous for its mutli cuisine and services.
+        It has a zomato rating of 4.5/5.
+        It is located in Pimple Saudagar.
+    </string>
+    <string name="nawab_asia_description">
+        Nawab Asia is famous for its Indian cuisine and services.
+        It has a zomato rating of 4.2/5.
+        It is located in Balewadi High Street.
+    </string>
+    <string name="baashos_description">
+        Baashos is famous for its Indian cuisine and services.
+        It has a zomato rating of 4.0/5.
+        It is located in Koregaon Park
+    </string>
+    <string name="gong_description">
+        Gong is famous for its Continental and chinese cuisine and services.
+        It has a zomato rating of 4.6/5.
+        It is located in Balewadi High Street
+    </string>
+
+
+    <string name="dagdusheth_title">
+       DAGDUSHETH
+    </string>
+    <string name="bahubali_thali_title">
+       BAHUBALI THALI
+    </string>
+    <string name="pashan_lake_title">
+       PASHAN LAKE
+    </string>
+    <string name="good_luck_cafe_title">
+       GOOD LUCK CAFE
+    </string>
+
+    <string name="dagdusheth_description">
+        Dagdusheth is a 127 year old Ganesh Temple in Pune.
+        The temple is popular in Maharashtra and is visited by thousands of pilgrims every year.
+        The main Ganesh idol is insured for sum of ₹10 million (US$150,000).
+        It is located in Deccan Gymkhana.
+    </string>
+    <string name="bahubali_thali_description">
+        The Bahubali Thali is world\'s biggest veg thali served by Aaogi Khaoji, Pune.
+        It is nearly impossible for a person to finish the thali all alone by himself/herself.
+        However,if you manage to do so,you will be served free food for lifetime there!
+        It is located near Ambedkar Chowk.
+    </string>
+    <string name="pashan_lake_description">
+        Pashan lake is an artificial lake home to many beautiful birds.
+        It is one of the most serene places in the city of Pune.
+        It is located in Pashan.
+    </string>
+    <string name="good_luck_cafe_description">
+        The visit to Pune is incomplete without visiting this famous iranian cafe and trying it\'s
+        Bun Maska with Chai.
+        It is located in Deccan Gymkhana.
+    </string>
+
+
+</resources>
